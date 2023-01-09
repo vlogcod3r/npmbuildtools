@@ -1,0 +1,9 @@
+$bg: green;
+
+body {
+    background-color: $bg;
+
+    &::placeholder {
+        color: gray;
+    }
+}
